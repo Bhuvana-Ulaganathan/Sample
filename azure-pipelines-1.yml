@@ -2,7 +2,7 @@ name: sampleWeb_$(Date:yyyyMMdd)$(Rev:.r)
 trigger:
 - main
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 steps:
 - task: VSBuild@1
   inputs:
